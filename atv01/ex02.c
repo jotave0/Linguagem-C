@@ -22,7 +22,7 @@ int main() {
         }
 
         distancia = sqrt(pow(ponto2.x - ponto1.x, 2) + pow(ponto2.y - ponto1.y, 2));
-        printf("Distância entre os pontos: %.4f\n\n", distancia);
+        printf("Distância entre os pontos: %.6f\n\n", distancia);
     }
 
     return 0;
